@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* common styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container {
+    max-width: 1589px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.page-wrap {
+    min-height: 100vh;
+    background-image: url(../assets/night_image.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.main {
+    flex-grow: 1;
+    padding-top: 101px;
+}
+
+
+/* text styles */
+
+
+.h1 {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.txt {
+    max-width: 567px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.txt-2 {
+    max-width: 567px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+
+}
+
+
+
+/* nav */
+
+
+.header {
+    padding-top: 32px;
+}
+
+
+.nav {
+    margin-left: 53px;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: normal;
+    color: rgba(177, 187, 203, 0.87);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: lightslategray;
+}
+
+
+
+/* main-section */
+
+.h1-main {
+   padding-bottom: 8px;
+   margin-left: 67px;
+}
+
+.txt-main {
+    margin-bottom: 15px;
+    margin-left: 67px;
+    line-height: normal;
+
+}
+
+.txt-main-2 {
+    margin-left: 67px;
+    line-height: normal;
+
+}
+
+
+/* footer */
+
+.footer {
+    margin-left: 44px;
+    padding: 149px 0 75px;
+}
+
+.txt-footer {
+    color: rgba(255, 255, 255, 0.27);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+   
+}
